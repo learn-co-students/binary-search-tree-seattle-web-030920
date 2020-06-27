@@ -44,8 +44,7 @@ describe 'Binary Search Tree' do
   end
 
   def record_all_data(bst)
-    all_data = []
-    bst.each { |data| all_data << data }
+    all_data = bst.each
     all_data
   end
 
